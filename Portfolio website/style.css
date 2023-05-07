@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.introduction{
+    background-image:url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    text-align: center;
+    padding: 30px ;
+
+}
+.navbar>a{
+    color: white;
+    text-decoration: dotted;
+    font-size: 20px;
+    padding-inline: 10px;
+}
+.navbar a:hover {
+    color: rgb(7, 255, 255);
+    transition: 0.5s;
+}
+.navbar a.active {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+.about,#name{
+    padding-top: 50px;
+    padding-bottom: 18px;
+    font-size: 60px;
+    font-family:Dancing Script;
+    color: white;
+    text-align: center;
+}
+.about p{
+    font-size: 20px;
+    color:rgb(252, 167, 87) ;
+}
+
+.social-media a{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 20px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.social-media a:hover{
+    color: #24262b;
+    background-color: white;
+}
+
+#education{
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1{
+    color: black;
+    text-shadow: 2px 2px 4px #faec29;
+    font-size: 60px;
+    font-family:Dancing Script;
+}
+.clg-name{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.clg-name>.clg{
+    width: 100px;
+    margin: 20px;
+    flex-grow: 10;
+    padding-top: 10px;
+}
+.clg p{
+    font-size:20px ;
+    width: 100%;
+    color: crimson;
+}
+#courses{
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url('images/o1pacity-changed-education-pattern-background-doodle-style_53876-115365.jpg');
+}   
+.course-name{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.course-name>.course{
+    width: 100px;
+    margin: 20px;
+    /*background-color: #faffe8;*/
+    flex-grow: 10;
+    padding-top: 10px;
+}
+.course p,a{
+    font-size:20px ;
+    width: 100%;
+    color: rgb(44, 0, 202);
+    font-weight: 600;
+}
+#projects{
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}   
+.project-name{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.project-name>.project{
+    width: 100px;
+    margin: 20px;
+    /*background-color: #faffe8;*/
+    flex-grow: 10;
+    padding-top: 10px;
+}
+.project p,a{
+    font-size:20px ;
+    width: 100%;
+    color: crimson;
+    font-weight: 600;
+}
+#social_works{
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('images/opacity-changed-faceless-standing-peop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+h1{
+    color: black;
+    text-shadow: 2px 2px 4px #faec29;
+    font-size: 60px;
+    font-family:Dancing Script;
+}
+.work-name{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.work-name>.work{
+    width: 100px;
+    margin: 20px;
+    flex-grow: 10;
+    padding-top: 10px;
+}
+.work p,a{
+    font-size:20px ;
+    width: 100%;
+    color: rgb(44, 0, 202);
+    font-weight: 600;
+}
